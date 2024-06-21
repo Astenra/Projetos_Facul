@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzaria Buona Pizza</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <!-- logo -->
+        <a class="logo" href="#">Buona<span>Pizza</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Cardápio</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img class="utensilios" src="../public/pizza_logo_home.png" alt="pizza.">
+          </div>
+          <div class="text">
+            <h2 class="title">A melhor pizza da cidade</h2>
+            <p>Localizada no coração da cidade a <strong>Pizzaria Buona Pizza</strong> traz para o mercado o que há de melhor na culinária italiana. Fundada em 2014, a Pizzaria Buona Pizza já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar uma experiência vinda diretamente da Itália para nossos clientes."</strong>.</em></p>
+
+				<p>Oferecemos profissionais experientes e antenados à cultura culinária da Itália. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            <a class="button" href="#">Faça uma reserva</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="../public/pizza_logo_beneficios.png" class="imagem-beneficios">
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre</h2>
+            <p>
+              Bem-vindo à Buona Pizza, onde a arte da culinária italiana é elevada a um novo patamar. Nesta pizzaria, cada ingrediente é cuidadosamente selecionado e preparado com o mesmo amor e dedicação que os chefs italianos empregam em suas criações. Desde a massa artesanal, feita a partir de trigo de alta qualidade, até os molhos de tomate frescos e os queijos cremosos, tudo é pensado para proporcionar uma experiência gastronômica genuína.
+            </p>
+            <br />
+            <p>
+              O ambiente da Buona Pizza é uma verdadeira extensão da Itália, com paredes revestidas de pedra e móveis de madeira rústicos, criando um ambiente acolhedor e autêntico. Os clientes são recebidos com a calorosa hospitalidade italiana, onde cada detalhe, desde a decoração até o atendimento personalizado, é projetado para transportá-los diretamente para as ruas de Nápoles ou Florença. Aqui, a comida não é apenas uma refeição, mas uma jornada sensorial através dos sabores e aromas da bela Itália.
+            </p>
+            <br />
+            <p>
+              A estrela da Buona Pizza, sem dúvida, são as pizzas artesanais, cada uma uma obra-prima. A massa é fermentada lentamente, seguindo rigorosamente as técnicas tradicionais, resultando em uma crosta fina e crocante. Os molhos de tomate são preparados diariamente, utilizando os melhores tomates frescos da região, e os queijos são selecionados com meticuloso cuidado para garantir a autenticidade do sabor. Com uma ampla variedade de combinações de ingredientes, a Buona Pizza oferece opções para todos os gostos, desde as clássicas marinara e margherita até as criativas e ousadas criações de seus chefs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Cardápio</h2>
+            <p>
+              Com mais de 10 anos no mercado, a <strong>Buona Pizza</strong> já
+              conquistou clientes de inúmeros países com sua culinária delicada.
+            </p>
+          </header>
+          <ul class="produtos"> 
+            <li> <h2> Calabresa </h2> 
+            <img src="../public/Pizza_calabresa.png">
+            <p class="produto-descricao"> Pizza com queijo, calabresa e molho de tomate: </p>
+            <p class="preço-produto" > R$25,00 </p>
+            </li>
+
+          <li> <h2> Catupiry </h2>
+            <img class="catupiry" src="../public/Pizza_catupiry.png">
+            <p class="produto-descricao"> Pizza de Queijo, Frango e Catupiry: </p>
+            <p class="preço-produto"> R$18,00 </p>
+          </li>
+
+          <li> <h2> Marguerita  </h2> 
+            <img src="../public/Pizza_margherita.png">
+            <p class="produto-descricao"> Pizza com molho de tomate e queijo: </p>
+            <p class="preço-produto"> R$35,00 </p>
+
+          </li>
+          <ul class="produtos"> 
+            <li> <h2> Bebidas Enlatadas </h2> 
+            <img src="https://imgs.search.brave.com/qRLq5nFzCFX-kpHNJ377FvTfgzbGOdNbK3Z1R0IbQ5M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzg1ODc2NC8x/ODBfcmVmcmlnZXJh/bnRlX2NvY2FfY29s/YV9sYXRhXzMxMG1s/X2NfMDZfMTYxNV8x/XzJhMmEyNmRkNmUy/MTJmMGE0OTE4MDhi/OTcyZTc0Y2M5Lmpw/Zw">
+            <p class="produto-descricao"> Coca-Cola, Guaraná e Sukita: </p>
+            <p class="preço-produto" > R$8,00 </p>
+            </li>
+
+          <li> <h2> Bebidas em Garrafa(2L) </h2>
+            <img  src="https://imgs.search.brave.com/sCEPChwmMJTJqBlVMALbG7bOFmMeMjWfb4NobsVhPa8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxZ2h5T0t4ckZT/LmpwZw">
+            <p class="produto-descricao"> Coca-Cola, Guaraná e Sukita: </p>
+            <p class="preço-produto"> R$12,00 </p>
+          </li>
+
+          <li> <h2> Sucos Naturais(1L) </h2> 
+            <img src="https://imgs.search.brave.com/szj3l8COR0iJF_x1r7NHwkO9QaQTCKdV73yP64m14nw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9uYXR1/cmFsb25lLnZ0ZXhp/bWcuY29tLmJyL2Fy/cXVpdm9zL2lkcy8x/NTc2NTUtMjkyLTI5/Mi9TVUNPX0RFX0xB/UkFOSkFfSU5URUdS/QUxfMTVMX0FNQklF/TlRFXy1fTkFUVVJB/TF9PTkUtMDEuanBn/P3Y9NjM4MjEwNTQw/NDEzNDcwMDAw">
+            <p class="produto-descricao"> Laranja, Uva e Morango: </p>
+            <p class="preço-produto"> R$12,00 </p>
+
+          </li>
+
+
+
+        </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+			<h1>Membros</h1>
+			<ul>
+				<li>Eduardo Zoldan Debastiani RA: 2210169 </li>
+				<li>Lucas Oliveira Santiago RA: 2210370 </li>
+        <li>Gustavo Maia Moreira RA: 2211155 </li>
+				<li>Rafael Luiz Pires Lima RA: 2211814 </li>
+				<li>Luis Felipe Borges RA: 2211829 </li>
+        <li>Matehus de Paula Costa Cavalcante RA: 2210950 </li>
+			</ul>
+			<p class=" copyright">&copy; Copyright ASPCTS - 2024</p>
+		</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
