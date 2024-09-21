@@ -10,6 +10,9 @@ import cv2
 imagem = Image.open('imagem2.jpg')
 
 # converter a imagem em escala de cinza
+imagem_cinza = imagem.convert('L')
+
+#converter a imagem em uma matriz numpy
 matriz_imagem = np.array(imagem_cinza)
 
 # Detectar os contornos
@@ -22,7 +25,7 @@ for contorno in contornos:
         desenhar.line([(contorno[i, 1], contorno[i, 0]), (contorno[i + 1, 1], contorno[i + 1, 0])], fill='red', width=2)
 
 # Aumentar o contraste
-realcar = ImagemEnhance.Contrats(imagem)
+realcar = ImageEnhance.Contrast(imagem)
 imagem = realcar.enhance(15.5)
 
 # Mostrar a imagem com os contornos
